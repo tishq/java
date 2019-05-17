@@ -1,0 +1,68 @@
+#  context-path: /aquan
+#激活相应的环境
+#spring:
+#  profiles:
+#    active: dev
+#
+#person:
+#  name: lufei
+#  age: 10
+#  birth: 2014/01/02
+#  dog:
+#    name: gouzi
+#    age: 10
+#  email:
+#默认环境
+#server:
+#  port: 8081
+# 查看哪些自动配置起作用了
+#debug: true
+
+---
+#调试环境
+#server:
+#  port: 8082
+#spring:
+#  profiles: dev
+
+---
+# 生产环境
+#server:
+#  port: 8083
+#spring:
+#  profiles: prod
+#--spring.config.location=/home/hq/config_me/mySpring.yml
+
+spring:
+  thymeleaf:
+    cache: false #手动指定配置文件位置
+  redis:
+    host: localhost
+  datasource:
+    username: root
+    password: Yn971022
+    url: jdbc:mysql://tishq.cn:3306/mysql_it
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+#     更新或创建表结构
+      ddl-auto: update
+#   控制台显示sql
+    show-sql: true
+
+#    配置elasticsearch
+  data:
+    elasticsearch:
+      cluster-name: docker-cluste
+      cluster-nodes: localhost:9300
+
+## jest操作elasticsearch
+#  elasticsearch:
+#    jest:
+#      proxy:
+#        host: localhost
+#        port: 9200
+#    database-platform: org.hibernate.dialect.MySQL5Dialect
+server:
+  port: 8080
+
