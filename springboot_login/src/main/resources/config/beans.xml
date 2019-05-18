@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--用配置文件的方式往容器中添加组件-->
+    <!--需配合主类中的@ImportResource(locations = {"classpath:beans.xml"})-->
+    <bean id="helloService" class="cn.tishq.springboot_login.service.HelloService"></bean>
+</beans>

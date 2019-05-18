@@ -1,0 +1,49 @@
+2019-05-18 11:24:18.004  INFO 12830 --- [restartedMain] c.t.springboot_login.DemoApplication     : Starting DemoApplication on aquan with PID 12830 (/home/hq/IdeaProjects/springboot_login/target/classes started by hq in /home/hq/IdeaProjects/springboot_login)
+2019-05-18 11:24:18.007  INFO 12830 --- [restartedMain] c.t.springboot_login.DemoApplication     : No active profile set, falling back to default profiles: default
+2019-05-18 11:24:18.036  INFO 12830 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-18 11:24:18.036  INFO 12830 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-18 11:24:18.652  WARN 12830 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn.tishq.springboot_login]' package. Please check your configuration.
+2019-05-18 11:24:18.701  INFO 12830 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-18 11:24:18.702  INFO 12830 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-18 11:24:18.745  INFO 12830 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 1 repository interfaces.
+2019-05-18 11:24:18.758  INFO 12830 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-18 11:24:18.759  INFO 12830 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-18 11:24:18.769  INFO 12830 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface cn.tishq.springboot_login.repository.UserRepository.
+2019-05-18 11:24:18.769  INFO 12830 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-05-18 11:24:19.140  INFO 12830 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d6deb0fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-18 11:24:19.168  INFO 12830 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$565efe2d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-18 11:24:19.480  INFO 12830 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-18 11:24:19.499  INFO 12830 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-18 11:24:19.499  INFO 12830 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-18 11:24:19.590  INFO 12830 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-18 11:24:19.590  INFO 12830 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1554 ms
+2019-05-18 11:24:19.955  INFO 12830 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-05-18 11:24:20.744  INFO 12830 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-05-18 11:24:20.804  INFO 12830 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-18 11:24:20.849  INFO 12830 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-18 11:24:20.851  INFO 12830 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-18 11:24:20.943  INFO 12830 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-18 11:24:21.061  INFO 12830 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-05-18 11:24:21.622  INFO 12830 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-18 11:24:21.688  INFO 12830 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-18 11:24:22.356  INFO 12830 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-18 11:24:22.386  WARN 12830 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-05-18 11:24:22.879  INFO 12830 --- [restartedMain] io.searchbox.client.AbstractJestClient   : Setting server pool to a list of 1 servers: [http://localhost:9200]
+2019-05-18 11:24:22.881  INFO 12830 --- [restartedMain] io.searchbox.client.JestClientFactory    : Using multi thread/connection supporting pooling connection manager
+2019-05-18 11:24:22.927  INFO 12830 --- [restartedMain] io.searchbox.client.JestClientFactory    : Using custom GSON instance
+2019-05-18 11:24:22.927  INFO 12830 --- [restartedMain] io.searchbox.client.JestClientFactory    : Node Discovery disabled...
+2019-05-18 11:24:22.927  INFO 12830 --- [restartedMain] io.searchbox.client.JestClientFactory    : Idle connection reaping disabled...
+2019-05-18 11:24:23.057  INFO 12830 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-18 11:24:23.060  INFO 12830 --- [restartedMain] c.t.springboot_login.DemoApplication     : Started DemoApplication in 5.367 seconds (JVM running for 7.32)
+2019-05-18 11:24:33.079  INFO 12830 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-18 11:24:33.080  INFO 12830 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-18 11:24:33.092  INFO 12830 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-05-18 11:24:44.103  INFO 12830 --- [http-nio-8080-exec-4] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-05-18 11:24:44.610  INFO 12830 --- [http-nio-8080-exec-4] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-05-18 11:24:44.612  INFO 12830 --- [http-nio-8080-exec-4] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-05-18 11:24:50.692  INFO 12830 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-18 11:24:50.693  INFO 12830 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-18 11:24:50.695  INFO 12830 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-05-18 11:24:50.699  INFO 12830 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
