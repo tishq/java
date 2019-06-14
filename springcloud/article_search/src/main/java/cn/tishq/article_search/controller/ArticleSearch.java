@@ -39,7 +39,7 @@ public class ArticleSearch {
         //headers.add("Accept", MediaType.APPLICATION_JSON.toString());
 
 
-        String url = "http://localhost:5000/articles";
+        String url = "http://localhost:5001/articles";
 //        String url = "http://localhost:9200/es_py1/articles/_search";
         JSONObject postData = new JSONObject();
         postData.put("article_kwd", keyword);
@@ -52,6 +52,25 @@ public class ArticleSearch {
         System.out.println(articles);
         return articles;
     }
+
+    @GetMapping(value = "/articles/reco")
+    public String getArticlesR(String userId) {
+        String url = "http://localhost:5002/articles/r/"+userId;
+        System.out.println(url);
+        ResponseEntity<String> responseEntity = restTemplate.getForEntity(url,String.class);
+        return responseEntity.getBody();
+    }
+
+
+    @GetMapping(value = "/kgr")
+    public String serUAR(String userId,String articleId) {
+        String url = "http://localhost:5003/kgr/"+userId+"/"+articleId;
+        System.out.println(url);
+        ResponseEntity<String> responseEntity = restTemplate.getForEntity(url,String.class);
+        return responseEntity.getBody();
+    }
+
+
 
 }
 
