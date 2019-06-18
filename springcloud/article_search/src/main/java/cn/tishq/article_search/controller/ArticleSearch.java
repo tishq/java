@@ -42,6 +42,7 @@ public class ArticleSearch {
         String url = "http://localhost:5001/articles";
 //        String url = "http://localhost:9200/es_py1/articles/_search";
         JSONObject postData = new JSONObject();
+//        {"article_kwd":"大数据"}
         postData.put("article_kwd", keyword);
         String jsonString = postData.toJSONString();
         System.out.println(jsonString);

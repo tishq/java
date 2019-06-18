@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb16e3d-0379-41b2-8547-c8d690ca961f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../springboot_login/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_login/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article_search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/article_search/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/article_search/src/main/java/cn/tishq/article_search/controller/ArticleSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/article_search/src/main/java/cn/tishq/article_search/controller/ArticleSearch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/eureka_server/target/" />
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/article_search/src/main/java/cn/tishq/article_search/controller/ArticleSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="258">
+              <caret line="34" column="84" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="981" />
     <option name="y" value="32" />
     <option name="width" value="939" />
@@ -169,7 +167,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,6 +266,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,14 +348,15 @@
       <workItem from="1560513621138" duration="296000" />
       <workItem from="1560517179824" duration="919000" />
       <workItem from="1560570354836" duration="642000" />
+      <workItem from="1560776895002" duration="1048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29918000" />
+    <option name="totallyTimeSpent" value="30966000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="32" width="1877" height="1048" extended-state="7" />
+    <frame x="43" y="32" width="1877" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -429,8 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/article_search/src/main/java/cn/tishq/article_search/controller/ArticleSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="258">
+          <caret line="34" column="84" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
