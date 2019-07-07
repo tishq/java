@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CommonFriends/CommonFriends.iml" filepath="$PROJECT_DIR$/CommonFriends/CommonFriends.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HDFSClient/HDFSClient.iml" filepath="$PROJECT_DIR$/HDFSClient/HDFSClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InvertedIndex/InvertedIndex.iml" filepath="$PROJECT_DIR$/InvertedIndex/InvertedIndex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MapJoin/MapJoin.iml" filepath="$PROJECT_DIR$/MapJoin/MapJoin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReduceJoin/ReduceJoin.iml" filepath="$PROJECT_DIR$/ReduceJoin/ReduceJoin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TopN/TopN.iml" filepath="$PROJECT_DIR$/TopN/TopN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WordCount/WordCount.iml" filepath="$PROJECT_DIR$/WordCount/WordCount.iml" />
+    </modules>
+  </component>
+</project>

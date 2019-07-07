@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CommonFriends" />
+        <module name="HDFSClient" />
+        <module name="Test" />
+        <module name="WordCount" />
+        <module name="InvertedIndex" />
+        <module name="TopN" />
+        <module name="ReduceJoin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="CommonFriends" target="1.8" />
+      <module name="HDFSClient" target="1.8" />
+      <module name="HDFSClient (1)" target="1.8" />
+      <module name="InvertedIndex" target="1.8" />
+      <module name="MapJoin" target="1.8" />
+      <module name="ReduceJoin" target="1.8" />
+      <module name="Test" target="1.8" />
+      <module name="TopN" target="1.8" />
+      <module name="WordCount" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

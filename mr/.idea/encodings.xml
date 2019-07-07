@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/CommonFriends" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HDFSClient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/InvertedIndex" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MapJoin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ReduceJoin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TopN" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/WordCount" charset="UTF-8" />
+  </component>
+</project>
