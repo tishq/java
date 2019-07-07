@@ -1,0 +1,8 @@
+/home/hq/TISHQ/IdeaProjects/mapreduce/src/main/java/com/ex/bg/mapreduce/WcMapper.java
+/home/hq/TISHQ/IdeaProjects/mapreduce/src/main/java/com/ex/bg/mapreduce/reducejoin/TableMapper.java
+/home/hq/TISHQ/IdeaProjects/mapreduce/src/main/java/com/ex/bg/mapreduce/reducejoin/TableBean.java
+/home/hq/TISHQ/IdeaProjects/mapreduce/src/main/java/com/ex/bg/mapreduce/reducejoin/TableDriver.java
+/home/hq/TISHQ/IdeaProjects/mapreduce/src/main/java/com/ex/bg/mapreduce/WcDriver.java
+/home/hq/TISHQ/IdeaProjects/mapreduce/src/main/java/com/ex/bg/hdfs/HDFSClient.java
+/home/hq/TISHQ/IdeaProjects/mapreduce/src/main/java/com/ex/bg/mapreduce/WcReducer.java
+/home/hq/TISHQ/IdeaProjects/mapreduce/src/main/java/com/ex/bg/mapreduce/reducejoin/TableReducer.java
