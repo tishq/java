@@ -64,7 +64,7 @@ public class TableMapper extends Mapper<LongWritable, Text, Text, TableBean>{
 			
 			k.set(fields[0]);
 		}
-		
+
 		// 写出
 		context.write(k, tableBean);
 	}
