@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6fdddc0-2b34-446e-9bae-6164a382e5ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapreduce.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ex/bg/mapreduce/WcDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ex/bg/mapreduce/WcDriver.java" afterDir="false" />
-    </list>
+    <list default="true" id="a6fdddc0-2b34-446e-9bae-6164a382e5ca" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -303,7 +298,7 @@
     <option name="totallyTimeSpent" value="12765000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="32" width="1877" height="1048" extended-state="7" />
+    <frame x="43" y="32" width="1877" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
