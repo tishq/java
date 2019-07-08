@@ -32,9 +32,9 @@ public class WcDriver {
 
         Configuration conf = new Configuration();
         // 开启map端输出压缩
-        conf.setBoolean("mapreduce.map.output.compress", true);
+//        conf.setBoolean("mapreduce.map.output.compress", true);
         // 设置map端输出压缩方式
-        conf.setClass("mapreduce.map.output.compress.codec", BZip2Codec.class, CompressionCodec.class);
+//        conf.setClass("mapreduce.map.output.compress.codec", BZip2Codec.class, CompressionCodec.class);
 
         // 1 获取Job对象
         Job job = Job.getInstance(conf);
@@ -69,11 +69,11 @@ public class WcDriver {
         // job.setCombinerClass(WordcountReducer.class);
 
         // 设置reduce端输出压缩开启
-        FileOutputFormat.setCompressOutput(job, true);
+//        FileOutputFormat.setCompressOutput(job, true);
 
         // 设置压缩的方式
 //		FileOutputFormat.setOutputCompressorClass(job, BZip2Codec.class);
-        FileOutputFormat.setOutputCompressorClass(job, GzipCodec.class);
+//        FileOutputFormat.setOutputCompressorClass(job, GzipCodec.class);
 
 
         // 6 设置输入路径和输出路径
