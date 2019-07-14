@@ -7,7 +7,7 @@ package com.ex.scala
   */
 object Hello {
   def main(args: Array[String]): Unit = {
-    printf("hello")
+    printf("hello\n")
     var a:Int = 10
     println(a)
 
