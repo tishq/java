@@ -11,6 +11,7 @@
         <module name="Test" />
         <module name="WordCount" />
         <module name="InvertedIndex" />
+        <module name="spark" />
         <module name="TopN" />
         <module name="ReduceJoin" />
       </profile>
@@ -24,6 +25,7 @@
       <module name="ReduceJoin" target="1.8" />
       <module name="scala" target="1.8" />
       <module name="scala01" target="1.8" />
+      <module name="spark" target="1.8" />
       <module name="Test" target="1.8" />
       <module name="TopN" target="1.8" />
       <module name="WordCount" target="1.8" />
