@@ -38,12 +38,13 @@ object Movies {
     // 载入评级数据
     val rawData = sc.textFile("file:///home/hq/IdeaProjects/mr/spark/data/ml-100k/u.data")
     // 展示一条记录
-    print(rawData.first())
+    println(rawData.first())
+    println()
 
     // 格式化数据集
     val rawRatings = rawData.map(_.split("\t").take(3))
     // 展示一条记录
-    print(rawData.first())
+   println(rawRatings.first().mkString(" "))
 
     // 将评分矩阵RDD中每行记录转换为Rating类型
     val ratings = rawRatings.map { case Array(user, movie, rating) =>
@@ -72,6 +73,7 @@ object Movies {
 
     // 建立用户名-其他RDD，并仅获取用户789的记录
     val moviesForUser = ratings.keyBy(_.user).lookup(789)
+
     // 获取用户评分最高的10部电影，并打印电影名和评分值
     moviesForUser.sortBy(-_.rating).take(10).map(rating =>
       (titles(rating.product), rating.rating)).foreach(println)
