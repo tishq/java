@@ -15,7 +15,8 @@ public class OneIndexDriver {
 	public static void main(String[] args) throws Exception, IOException {
 
 		// 输入输出路径需要根据自己电脑上实际的输入输出路径设置
-		args = new String[] { "e:/input/inputoneindex", "e:/output5" };
+		args = new String[] { "file:///home/hq/IdeaProjects/mr/InvertedIndex/data",
+				"file:///home/hq/Desktop/InvertedIndex" };
 
 		Configuration conf = new Configuration();
 
