@@ -11,6 +11,7 @@
         <module name="Test" />
         <module name="WordCount" />
         <module name="InvertedIndex" />
+        <module name="javaLearn" />
         <module name="spark" />
         <module name="TopN" />
         <module name="ReduceJoin" />
@@ -21,6 +22,7 @@
       <module name="HDFSClient" target="1.8" />
       <module name="HDFSClient (1)" target="1.8" />
       <module name="InvertedIndex" target="1.8" />
+      <module name="javaLearn" target="1.8" />
       <module name="MapJoin" target="1.8" />
       <module name="ReduceJoin" target="1.8" />
       <module name="scala" target="1.8" />
