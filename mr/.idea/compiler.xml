@@ -11,6 +11,7 @@
         <module name="Test" />
         <module name="WordCount" />
         <module name="HDFSClient" />
+        <module name="bytedance" />
         <module name="InvertedIndex" />
         <module name="spark" />
         <module name="TopN" />
@@ -18,6 +19,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="bytedance" target="1.8" />
       <module name="CommonFriends" target="1.8" />
       <module name="HDFSClient" target="1.8" />
       <module name="HDFSClient (1)" target="1.8" />

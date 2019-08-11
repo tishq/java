@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/TopN/TopN.iml" filepath="$PROJECT_DIR$/TopN/TopN.iml" />
       <module fileurl="file://$PROJECT_DIR$/WordCount/WordCount.iml" filepath="$PROJECT_DIR$/WordCount/WordCount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bytedance/bytedance.iml" filepath="$PROJECT_DIR$/bytedance/bytedance.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaDA/src/main/main.iml" filepath="$PROJECT_DIR$/JavaDA/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/scala/scala.iml" filepath="$PROJECT_DIR$/scala/scala.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark/spark.iml" filepath="$PROJECT_DIR$/spark/spark.iml" />
