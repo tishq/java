@@ -2,54 +2,24 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        int sum = 100;
         Scanner scanner = new Scanner(System.in);
-
         int n = scanner.nextInt();
-        int a1[] = new int[n];
-
-        for (int i = 0; i < n; i++) {
-            int hh = scanner.nextInt();
-            int mm = scanner.nextInt();
-            a1[i] = hh * 60 + mm;
+        sum = sum*n;
+        int d[] = new int[n];
+        int m[] = new int[n];
+        for(int i = 0;i<n;i++) {
+            d[i] = scanner.nextInt();
+            m[i]=0;
         }
-
-        dsort(a1);
-
-        int x = scanner.nextInt();
-        int a = scanner.nextInt();
-        int b = scanner.nextInt();
-
-        int sm = a * 60 + b - x;
-        for (int i = 0; i < n; i++) {
-            if (a1[i] <= sm) {
-                int h = sm / 60;
-                int m = sm % 60;
-                System.out.printf("%d %d", h, m);
-                break;
-
+        for(int i = 1;i<n;i++) {
+            if(d[i]>d[i-1]) {
+                m[i]+=m[i-1]+100;
             }
         }
-
-    }
-
-
-    public static void dsort(int array[]) {
-        int n = array.length;
-        boolean flag;
-        int t;
-        for (int i = 0; i < n - 1; i++) {
-            flag = false;
-            for (int j = 0; j < n - 1 - i; j++) {
-                if (array[j] < array[j + 1]) {
-                    flag = true;
-                    t = array[j];
-                    array[j] = array[j + 1];
-                    array[j + 1] = t;
+        for(int i =0;i<n;i++)  {
+            sum +=m[i];
+        }
+                System.out.println(sum);
                 }
-            }
-            if (!flag) {
-                break;
-            }
-        }
-    }
-}
+                }

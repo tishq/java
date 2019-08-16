@@ -5,7 +5,7 @@
  */
 public class DoubleSort {
     public static void main(String[] args) {
-        int array[] = {1,3,2,4};
+        int array[] = {4,3,2,1};
         dsort(array);
     }
 
