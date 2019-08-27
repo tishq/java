@@ -4,10 +4,7 @@
     <file url="file://$PROJECT_DIR$/CommonFriends" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/HDFSClient" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/InvertedIndex" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/JavaDA/src/main/java/atguigud/avl/AVLTreeDemo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/JavaDA/src/main/java/atguigud/graph/Graph.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/JavaDA/src/main/java/atguigud/sort/BubbleSort.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/JavaDA/src/main/java/atguigud/sort/InsertSort.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/JavaDA/src/main/java/com/atguigua/datastracture/sort/QuickSort.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MapJoin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ReduceJoin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Test" charset="UTF-8" />

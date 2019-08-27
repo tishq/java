@@ -1,87 +1,56 @@
-package com.atguigua.datastracture.sort;
 
-import java.text.SimpleDateFormat;
+package com.atguigua.datastracture.sort;
 import java.util.Arrays;
-import java.util.Date;
 
 public class QuickSort {
+    public static void main(String[] args) {
+        int[] a = {1, 2, 4, 5, 7, 4, 5 ,3 ,9 ,0};
+        System.out.println(Arrays.toString(a));
+        quickSort(a);
+        System.out.println(Arrays.toString(a));
+    }
 
-	public static void main(String[] args) {
-		//int[] arr = {-9,78,0,23,-567,70, -1,900, 4561};
-		
-		//���Կ��ŵ�ִ���ٶ�
-		// ����Ҫ��80000�������������
-		int[] arr = new int[8000000];
-		for (int i = 0; i < 8000000; i++) {
-			arr[i] = (int) (Math.random() * 8000000); // ����һ��[0, 8000000) ��
-		}
-		
-		System.out.println("����ǰ");
-		Date data1 = new Date();
-		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		String date1Str = simpleDateFormat.format(data1);
-		System.out.println("����ǰ��ʱ����=" + date1Str);
-		
-		quickSort(arr, 0, arr.length-1);
-		
-		Date data2 = new Date();
-		String date2Str = simpleDateFormat.format(data2);
-		System.out.println("����ǰ��ʱ����=" + date2Str);
-		//System.out.println("arr=" + Arrays.toString(arr));
-	}
+    public static void quickSort(int[] a) {
+        if(a.length>0) {
+            quickSort(a, 0 , a.length-1);
+        }
+    }
 
-	public static void quickSort(int[] arr,int left, int right) {
-		int l = left; //���±�
-		int r = right; //���±�
-		//pivot ����ֵ
-		int pivot = arr[(left + right) / 2];
-		int temp = 0; //��ʱ��������Ϊ����ʱʹ��
-		//whileѭ����Ŀ�����ñ�pivot ֵС�ŵ����
-		//��pivot ֵ��ŵ��ұ�
-		while( l < r) { 
-			//��pivot�����һֱ��,�ҵ����ڵ���pivotֵ,���˳�
-			while( arr[l] < pivot) {
-				l += 1;
-			}
-			//��pivot���ұ�һֱ��,�ҵ�С�ڵ���pivotֵ,���˳�
-			while(arr[r] > pivot) {
-				r -= 1;
-			}
-			//���l >= r˵��pivot ����������ֵ���Ѿ��������ȫ����
-			//С�ڵ���pivotֵ���ұ�ȫ���Ǵ��ڵ���pivotֵ
-			if( l >= r) {
-				break;
-			}
-			
-			//����
-			temp = arr[l];
-			arr[l] = arr[r];
-			arr[r] = temp;
-			
-			//���������󣬷������arr[l] == pivotֵ ��� r--�� ǰ��
-			if(arr[l] == pivot) {
-				r -= 1;
-			}
-			//���������󣬷������arr[r] == pivotֵ ��� l++�� ����
-			if(arr[r] == pivot) {
-				l += 1;
-			}
-		}
-		
-		// ��� l == r, ����l++, r--, ����Ϊ����ջ���
-		if (l == r) {
-			l += 1;
-			r -= 1;
-		}
-		//����ݹ�
-		if(left < r) {
-			quickSort(arr, left, r);
-		}
-		//���ҵݹ�
-		if(right > l) {
-			quickSort(arr, l, right);
-		}
-		
-		
-	}
+    private static void quickSort(int[] a, int low, int high) {
+        //1,找到递归算法的出口
+        if( low > high) {
+            return;
+        }
+        //2, 存
+        int i = low;
+        int j = high;
+        int p;
+        //3,key
+        int key = a[ low ];
+        //4，完成一趟排序
+        while( i< j) {
+            //4.1 ，从右往左找到第一个小于key的数
+            while(i<j && a[j] > key){
+                j--;
+            }
+            // 4.2 从左往右找到第一个大于key的数
+            while( i<j && a[i] <= key) {
+                i++;
+            }
+            //4.3 交换
+            if(i<j) {
+                p = a[i];
+                a[i] = a[j];
+                a[j] = p;
+            }
+        }
+        // 4.4，调整key的位置
+        p = a[i];
+        a[i] = a[low];
+        a[low] = p;
+        //5, 对key左边的数快排
+        quickSort(a, low, i-1 );
+        //6, 对key右边的数快排
+        quickSort(a, i+1, high);
+    }
 }
